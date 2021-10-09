@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/notes
+Content-Type: "application/json"
+
+{
+  "content": "Postgres checks validity of saved data",
+  "important": false
+}
