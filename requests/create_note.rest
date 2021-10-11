@@ -1,6 +1,6 @@
 POST http://localhost:3001/api/notes
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOjIsImlhdCI6MTYzMzk0NTA5Mn0.BpTY89svS6ypIbrSC6UY5aW2Gq2ym_brKgEby3QzOs0
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOjEsImlhdCI6MTYzMzk2MTkyM30.2zxDTBkv63Xc4W4Sc5rhfg8GqZKIS5ae8_TCU8AGbVQ
 
 {
   "content": "Relational databases rule the world",
