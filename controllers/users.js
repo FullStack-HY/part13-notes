@@ -1,15 +1,19 @@
 const router = require('express').Router()
 
-const { User } = require('../models')
+const { User, Note } = require('../models')
 
 router.get('/', async (req, res) => {
-  const users = await User.findAll()
+  const users = await User.findAll({ 
+    include: {
+      model: Note,
+      attributes: { exclude: ['userId'] }
+    }
+  })
   res.json(users)
 })
 
 router.post('/', async (req, res) => {
   try {
-    console.log(req.body)
     const user = await User.create(req.body)
     res.json(user)
   } catch(error) {
