@@ -1,8 +1,8 @@
 POST http://localhost:3001/api/notes
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOjEsImlhdCI6MTYzMzk2MTkyM30.2zxDTBkv63Xc4W4Sc5rhfg8GqZKIS5ae8_TCU8AGbVQ
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx5bngiLCJpZCI6MiwiaWF0IjoxNjMzOTYxOTY4fQ.176gUskMbCEo02QMxqZjFlymzv_GQtIQajHCbXJVX1Q
 
 {
-  "content": "Relational databases rule the world",
+  "content": "Expo is a must in React Native development",
   "important": true
 }

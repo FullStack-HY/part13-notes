@@ -25,6 +25,12 @@ router.post('/', async (request, response) => {
     username: user.username, 
     id: user.id,
   }
+  
+  if (user.disabled) {
+    return response.status(401).json({
+      error: 'account disabled, please contact admin'
+    })
+  }
 
   const token = jwt.sign(userForToken, SECRET)
 

@@ -15,7 +15,8 @@
     "nodemon": "^2.0.13"
   },
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "migration:down": "node util/rollback.js"
   },
   "author": "",
   "license": "ISC"

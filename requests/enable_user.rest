@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/users/jakousa
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOjEsImlhdCI6MTYzMzk2MzUxMH0.uzThnVJfk2nKaZl_nvWg8uZgIOPb0twQTnIa3DV0fDU
+
+{
+    "disabled": false
+}
