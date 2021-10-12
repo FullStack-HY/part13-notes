@@ -34,6 +34,14 @@ router.get('/', async (req, res) => {
         model: Note,
         attributes: { exclude: ['userId'] } 
       }, 
+      { 
+        model: Note, 
+        as: 'markedNotes',
+        attributes: { exclude: ['userId']},
+        through: {
+          attributes: []
+        },
+      },
       {
         model: Team,
         attributes: ['name', 'id'],
